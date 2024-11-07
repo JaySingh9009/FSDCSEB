@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Quiz</title>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <div id="head">
+            <h1>Online Quiz</h1>
+            <hr>
+        </div>
+
+        
+            <label for="question">Which planet is known as the Red Planet?</label>
+            <br>
+
+            <input type="radio" id="op1" name="planet" value="Earth">
+            <label for="op1">Earth</label>
+            <br>
+
+            <input type="radio" id="op2" name="planet" value="Mars">
+            <label for="op2">Mars</label>
+            <br>
+
+            <input type="radio" id="op3" name="planet" value="Jupiter">
+            <label for="op3">Jupiter</label>
+            <br>
+
+            <input type="radio" id="op4" name="planet" value="Saturn">
+            <label for="op4">Saturn</label>
+            <br>
+
+            <div class="button-group">
+                <button id="previous" type="button">Previous</button>
+                <button id="next" type="button">Next</button>
+            </div>
+            
+        
+    </div>
+
+    <script>
+        document.getElementById("previous").addEventListener("click", function() {
+            window.location.href = "question1.html";  
+        });
+        document.getElementById("next").addEventListener("click", function() {
+            window.location.href = "question3.html";  
+        });
+    </script>
+</body>
+
+</html>

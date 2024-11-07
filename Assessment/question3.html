@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Quiz</title>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <div id="head">
+            <h1>Online Quiz</h1>
+            <hr>
+        </div>
+
+        
+            <label for="question">What is the largest ocean on Earth?</label>
+            <br>
+
+            <input type="radio" id="op1" name="ocean" value="Atlantic">
+            <label for="berlin">Atlantic</label>
+            <br>
+
+            <input type="radio" id="op2" name="ocean" value="Pacific">
+            <label for="madrid">Pacific</label>
+            <br>
+
+            <input type="radio" id="op3" name="ocean" value="Indian">
+            <label for="paris">Indian</label>
+            <br>
+
+            <input type="radio" id="op4" name="ocean" value="Arctic">
+            <label for="rome">Arctic</label>
+            <br>
+
+            <div class="button-group">
+                <button id="previous" type="button">Previous</button>
+                <button id="next" type="button">Next</button>
+                <button type="button" style="background-color: red;">Submit</button>
+            </div>
+        
+    </div>
+    
+    <script>
+         document.getElementById("previous").addEventListener("click", function() {
+            window.location.href = "question2.html";  
+        });
+        document.getElementById("next").addEventListener("click", function() {
+            window.location.href = "question3.html";  
+        });
+    </script>
+</body>
+
+</html>

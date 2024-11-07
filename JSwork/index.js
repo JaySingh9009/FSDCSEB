@@ -95,9 +95,9 @@
 // }
 // let r=selectlanguage("c");
 // console.log(r)
-console.log("Hello world!");
-let parent=document.getElementsByClassName("parent");
-console.log(document)
-parent[0].innerText="Data has changed";
+// console.log("Hello world!");
+// let parent=document.getElementsByClassName("parent");
+// console.log(document)
+// parent[0].innerText="Data has changed";
 
 

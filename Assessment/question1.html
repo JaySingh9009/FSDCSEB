@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Quiz</title>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <div id="head">
+        <h1>Online Quiz</h1>
+        <hr>
+    </div>
+
+        
+            <label for="question">What is the capital of France?</label>
+            <br>
+
+            <input type="radio" id="op1" name="capital" value="Berlin">
+            <label for="berlin">Berlin</label>
+            <br>
+
+            <input type="radio" id="op2" name="capital" value="Madrid">
+            <label for="madrid">Madrid</label>
+            <br>
+
+            <input type="radio" id="op3" name="capital" value="Paris">
+            <label for="paris">Paris</label>
+            <br>
+
+            <input type="radio" id="op4" name="capital" value="Rome">
+            <label for="rome">Rome</label>
+            <br>
+
+            <div class="button-group">
+                <button type="button" id="previous">Previous</button>
+                <button id="next" type="button">Next</button>
+            </div>
+         
+       
+    </div>
+    <script>
+        document.getElementById("next").addEventListener("click", function() {
+            window.location.href = "question2.html";  
+        });
+       
+    </script>
+</body>
+
+</html>
