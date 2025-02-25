@@ -1,0 +1,24 @@
+[
+    {
+        "name":"rahul",
+        "roll":232424,
+        "branch":"CSE_B",
+        "college":"ABES"
+    },
+    {
+        
+            "name":"ram",
+            "roll":232445,
+            "branch":"CSE_A",
+            "college":"ABES"
+        
+    },
+    
+        {
+            "name":"ronit",
+            "roll":232409,
+            "branch":"CSE_B",
+            "college":"ABES"
+        }
+    
+]
